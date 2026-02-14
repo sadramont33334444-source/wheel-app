@@ -1,0 +1,46 @@
+name: fortune_wheel_app
+description: "گردونه شانس - یک اپلیکیشن حرفه‌ای آفلاین برای جوایز روزانه"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI & Animations
+  cupertino_icons: ^1.0.8
+  confetti: ^0.7.0
+  
+  # Audio
+  audioplayers: ^6.0.0
+  
+  # Storage
+  shared_preferences: ^2.2.3
+  
+  # URL Launcher
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^6.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/audio/
