@@ -1,4 +1,4 @@
-package com.example.fortune_wheel_app
+package com.sadramont.wheel
 
 import io.flutter.embedding.android.FlutterActivity
 
